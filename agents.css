@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .pop {
+      display: none;
+  }
+  
+  @font-face { font-family: Valorant; src: url('Valorant\ Font.ttf'); } 
+  
+  h1 {
+    font-family: 'Valorant';
+    background-color: #0F1923;
+  }
+  
+  html {
+    padding: 0px;
+  }
+  
+  body {
+    background-image: url("agentsbckgrnd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    color: #fffbf5;
+    font-family: "DINNextW1G-Bold";
+  }
+  
+  ul {
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: #0F1923;
+    color: #fffbf5;
+    font-size: 16px;
+    font-family: 'Valorant';
+  }
+  
+  li {
+    display: inline-block;
+    padding: 8px;
+    margin: 0px;
+  }
+  
+  a:link { color: #fffbf5; }
+  a:visited { text-decoration: none; color: #fffbf5; }
+  a:hover { color: #cfcbc5; }
+  a:active { text-decoration: none; color: #fffbf5; }
+  
+  .center {
+    margin: auto;
+    width: 50%;
+    background-color: #0F1923;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .headshot {
+    margin: auto;
+    width: 6vw;
+    border-radius: 0px;
+    border: 0.5px solid #cfcbc5;
+    background-color: rgba(207, 203, 197, 0.2);
+    padding: 0px;
+    position: absolute;
+    top: 75vh;
+  }
+
+  .headshot:hover {
+    background-color: rgba(217, 213, 207, 0.3);
+  }
